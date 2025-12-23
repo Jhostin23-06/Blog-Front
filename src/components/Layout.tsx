@@ -262,11 +262,11 @@ export default function Layout() {
 
 
   // Agregar menú de administración si es admin
-  if (user?.isAdmin || user?.isSuperadmin) {
-    menuItems.push(
-      { text: "Usuarios", icon: <PeopleIcon />, path: "/users" }
-    )
-  }
+  // if (user?.isAdmin || user?.isSuperadmin) {
+  //   menuItems.push(
+  //     { text: "Usuarios", icon: <PeopleIcon />, path: "/users" }
+  //   )
+  // }
 
   if (canManageUsers) {
     menuItems.push(
